@@ -1,0 +1,13 @@
+
+-e git+ssh://git@github.com/pip-shenanigans/shng-classic-common-library-1#egg=shng-classic-common-library-1
+-e git+ssh://git@github.com/pip-shenanigans/shng-classic-common-library-2@0.2.0#egg=shng-classic-common-library-2
+-e git+ssh://git@github.com/pip-shenanigans/shng-classic-common-library-3@master#egg=shng-classic-common-library-3
+-e git+ssh://git@github.com/pip-shenanigans/shng-classic-common-library-4@develop#egg=shng-classic-common-library-4
+pipdeptree
+
+# Tests
+pytest
+### pytest-runner
+### pytest-cov
+### pytest-flakes
+### pytest-black
